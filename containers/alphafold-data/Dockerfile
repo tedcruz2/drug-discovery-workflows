@@ -95,10 +95,6 @@ RUN python3 -m venv /opt/venv \
   && pip install -q --no-cache-dir \
   absl-py==1.4.0 \
   biopython==1.81 \
-  dm-tree==0.1.8\
-  numpy==1.23.5 \
-  pandas==2.0.0 \
-  scipy==1.10.1 \
   && pip install --no-cache-dir --no-deps /app/alphafold
 
 ENV VIRTUAL_ENV="/opt/venv"
