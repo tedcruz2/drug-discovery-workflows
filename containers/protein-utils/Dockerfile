@@ -7,7 +7,6 @@ RUN amazon-linux-extras install python3.8 \
   && yum upgrade -y \
   && yum install -y \
   unzip-6.0 \
-  wget-1.14 \
   && python3.8 -m venv /opt/venv \
   && source /opt/venv/bin/activate \
   && pip install -q --no-cache-dir \
